@@ -10,7 +10,8 @@ const TankRecordType = Record({
   side: 'player' as Side,
   direction: 'up' as Direction,
   moving: false,
-  level: 'basic' as TankLevel,
+  //坦克初始状态
+  level: 'power' as TankLevel,
   color: 'auto' as TankColor,
   hp: 1,
   withPowerUp: false,
